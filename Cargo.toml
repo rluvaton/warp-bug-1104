@@ -1,0 +1,12 @@
+[package]
+name = "bugs-warp"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+anyhow = "1.0.86"
+reqwest = "0.12.5"
+tokio = { version = "1.25", default-features = false, features = ["full"] }
+tokio-stream = { version = "0.1", features = ["net"] }
+warp = "0.3"
+
